@@ -39,9 +39,9 @@ export default class ContetnBody extends Component {
                   
                         </div>
                         <ul className="social_icone">
-                        <li className="social-icone_i"><i className='bx bxl-linkedin'></i></li>
-                        <li className="social-icone_i"><i className='bx bxl-github'></i></li>
-                        <li className="social-icone_i"><i className='bx bxl-instagram'></i></li>
+                        <li className="social-icone_i"><a href="https://www.linkedin.com/in/mandar-jaurat-95india"><i className='bx bxl-linkedin'></i></a></li>
+                        <li className="social-icone_i"><a href="https://github.com/mandar95"><i className='bx bxl-github'></i></a></li>
+                        <li className="social-icone_i"><a href="https://www.instagram.com/mandarjaurat/"><i className='bx bxl-instagram'></i></a></li>
                     </ul>
                         <div className="col-sm-7">
                             <div className="my-img"></div>
@@ -64,7 +64,7 @@ export default class ContetnBody extends Component {
                             <div className="my-img2"></div>
                         </div>
                         <div className="col-sm-6 about_text" style={{ "paddingTop": "20px",'color':'white','font-wight':'100','fontSize':'17px' }}>
-                            <p>I,am 24 year old Front End Developer based in Mumbai,india.
+                            <p>I'am 24 year old Front End Developer based in Mumbai,india.
                             I'am very much passionate about coding and designing.I love to expolre
                             new technology and challenging position with a creative work environment to
                             enhance expertise in front end development and application design.

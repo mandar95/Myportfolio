@@ -63,16 +63,21 @@ code {
   margin: 0px;
   padding: 0px;
   padding-left: 17px;
+  z-index:100;
 }
 .social_icone li {
   margin-right: 5px;
   float: left;
 }
 
-.social_icone li > i {
+.social_icone li > a {
  font-size:23px;
  color:white;
 }
+.social_icone li > a:hover {
+  color:#e0e0e0;
+ }
+
 .skill .row .text-center > i{
   font-size:100px;
 }
